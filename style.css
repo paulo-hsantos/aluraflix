@@ -6,29 +6,30 @@
   --azul-médio: #2f4dd1;
 }
 
-/*corpo da página*/
+
 body {
-  color: var(--branco); /*cor da fonte*/
-  background-color: var(--preto); /*cor de fundo*/
-  margin: 0px; /* não terá margem padrão*/
+  color: var(--branco);
+  background-color: var(--preto);
+  margin: 0px;
 }
 
 header {
   border: solid 2px;
-  border-color: var(--branco); /*cor da borda*/
-  padding: 20px; /*espaçamento interno*/
-  font-size: 32px; /*tamanho da fonte*/
-  color: var(--azul-médio); /*cor da fonte*/
+  border-color: var(--branco);
+  padding: 20px;
+  font-size: 32px;
+  color: var(--azul-médio);
 }
 
 section {
-  background-color: var(--lilás-claro); /*cor de fundo*/
-  padding-bottom: 80px; /*espaçamento inferior*/
-  padding-top: 80px; /*espaçamento superior*/
-  display: flex; /*alterar a disposição*/
-  justify-content: center; /* justificado no centro*/
+  background-color: var(--lilás-claro);
+  padding-bottom: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
 }
 
 div {
-  margin-right: 20px; /*margem a direita*/
+  margin-right: 20px;
 }
+
